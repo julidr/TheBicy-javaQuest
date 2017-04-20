@@ -1,0 +1,94 @@
+.ui-body-c, .ui-overlay-c{
+	text-shadow: none;
+} 
+
+#initWallpaper{
+	
+	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-o-background-attachment: fixed;
+
+  	background-image: url(../img/wallpaper.jpg);
+	background-image: no-repeat;
+	background-image: center top;
+  	
+  	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  
+	height: 500px;
+	margin:0; 
+	padding:0; 
+
+	-webkit-filter: grayscale(40%);
+ 	filter: grayscale(40%);
+}
+#initInfo{
+	margin-top: 15%;
+	text-align: center;
+	color: white;
+}
+
+.title1{
+	text-shadow: 2px 2px 6px #000000;
+}
+
+#bicycles{
+	width:80%;
+	margin: auto;
+}
+
+.collapsible-body{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#title{
+	width: 100%;
+	text-align: center;
+}
+
+#addBicycle{
+	margin: auto;
+	width: 50%;
+}
+
+#addBicycle a{
+	border-radius: 10px;
+	padding-top: 10px;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	margin-top:1%;
+}
+
+@media screen and (max-width: 1000px){
+	#addBicycle{
+		width: 100%;
+	}
+}
+
+#botones{
+	width: 50%;
+	margin: auto;
+}
+
+#botones a{
+	width: 40%;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+@media screen and (max-width: 820px){
+	#botones{
+		width: 80%;
+		margin: auto;
+	}
+	#botones a{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 2%;
+	}
+}
